@@ -6,7 +6,7 @@ describe('ConcatCardsPipe', () => {
     expect(pipe).toBeTruthy();
   });
 
-  it('should concat values correctly', () => {
+  it('should display values', () => {
     const pipe = new DisplayCardsPipe();
     expect(pipe.transform([20, 70])).toEqual(` [ 20 € , 70 € ]`);
   });

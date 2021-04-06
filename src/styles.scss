@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+
+  .mat-card {
+    width: 30em;
+    margin: 1em auto 0 auto;
+    text-align: center;
+
+    mat-card-title {
+      color: orange;
+      font-size: 1.2em;
+    }
+
+    &>:first-child,
+    .mat-card-content>:first-child {
+      font-size: 1.2em;
+
+    }
+  }
+
+  div.mat-list-item-content {
+    display: block!important;
+  }
+
+}
+
+
